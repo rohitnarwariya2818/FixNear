@@ -1,0 +1,119 @@
+// import { useState } from 'react'
+// import spi from "./spi.png";
+import logo from "./logo.jpeg"
+
+
+function Nav() {
+  return (
+    <>
+      <nav className="bg-amber-500 sticky top-0 left-0 right-0 z-50">
+        <div className="bg-red-400 flex items-center  pl-25 gap-10 p-2">
+          {/* Logo */}
+          <div
+            className="  basis-30 bg-cover bg-center h-15 w-full rounded-xl "
+            style={{ backgroundImage: `url(${logo})` }}
+          ></div>
+
+          {/* main-box */}
+
+          <div className=" mr-25 bg-pink-700 h-15 w-25 rounded-xl flex items-center justify-center">
+            <h3>hello</h3>
+          </div>
+
+          {/* location Box */}
+          <div className=" bg-pink-700 h-15 w-60 rounded-xl flex items-center justify-center">
+
+          </div>
+
+          {/* search Box */}
+          <div className=" bg-pink-700 h-15 w-80 rounded-xl flex items-center justify-center">
+
+          </div>
+
+          {/* cart */}
+
+          <div className=" bg-pink-700 h-15 w-25 rounded-full">
+
+          </div>
+
+        </div>
+      </nav>
+    </>
+  );
+}
+
+export default Nav;
+
+
+
+// import { useState } from 'react'
+// import spi from "./spi.png";
+// import {Link} from "react-router-dom"
+// import fixnear from "./asset/fixnear.svg";
+// import Srvice from './Srvice.jsx'
+
+// function Nav() {
+//   return (
+//     <>
+//       <div className="backdrop-blur-sm sticky top-0 left-0 right-0 z-50 w-full h-15 flex items-center  mt-2.5">
+//         {/* logo */}
+//         <div
+//           class=" top-0 left-0 h-full w-70 bg-cover bg-center ml-5 "
+//           style={{ backgroundImage: `url(${fixnear})` }}
+//         ></div>
+// {/* Optionbox */}
+
+//         <div className=" h-12 w-150 flex items-center justify-evenly  ml-5">
+//           <div
+//             className="relative cursor-pointer py-1
+//     after:content-[''] after:absolute after:left-0 after:bottom-0
+//     after:w-0 after:h-0.5 after:bg-orange-600
+//     after:transition-all after:duration-300
+//     hover:after:w-full font-semibold"
+//           >
+//             Home
+//           </div>
+//           <div
+//             className="relative cursor-pointer py-1
+//     after:content-[''] after:absolute after:left-0 after:bottom-0
+//     after:w-0 after:h-0.5 after:bg-orange-600
+//     after:transition-all after:duration-300
+//     hover:after:w-full"
+//           >
+//             {" "}
+//             Services
+//           </div>
+//           <div
+//             className="relative cursor-pointer py-1
+//     after:content-[''] after:absolute after:left-0 after:bottom-0
+//     after:w-0 after:h-0.5 after:bg-orange-600
+//     after:transition-all after:duration-300
+//     hover:after:w-full"
+//           >
+//             My Booking
+//           </div>
+//           <div
+//             className="relative cursor-pointer py-1
+//     after:content-[''] after:absolute after:left-0 after:bottom-0
+//     after:w-0 after:h-0.5 after:bg-orange-600
+//     after:transition-all after:duration-300
+//     hover:after:w-full"
+//           >
+//             Become a Provider
+//           </div>
+//         </div>
+//         <Srvice/>
+
+//         {/* <div className="transition delay-150 duration-700 ease-in-out hover:-translate-z-2 hover:scale-110 hover:bg-orange-500 hover:text-white h-12 w-17 rounded-l-full flex items-center justify-center border-l-2 border-t-2 border-b-2  border-gray-300 ">Login</div>
+//         <div className="transition delay-150 duration-700 ease-in-out hover:-translate-z-2 hover:scale-110 hover:bg-orange-500 h-12 w-17 rounded-r-full flex items-center justify-center border-r-2 border-t-2 border-b-2  border-gray-300 ">Sign-Up</div> */}
+//        <div className="h-12 w-20 rounded-l-full flex items-center justify-center border-l-2 border-t-2 border-b-2 border-gray-300 transition-all duration-300 ease-out hover:scale-105 hover:bg-orange-500 hover:text-white">
+//   Login
+// </div>
+
+/* <div className="h-12 w-20 rounded-r-full flex items-center justify-center border-r-2 border-t-2 border-b-2 border-gray-300 transition-all duration-300 ease-out hover:scale-105 hover:bg-orange-500 hover:text-white">
+  Sign-Up
+</div>
+      </div>
+    </>
+  );
+// } */

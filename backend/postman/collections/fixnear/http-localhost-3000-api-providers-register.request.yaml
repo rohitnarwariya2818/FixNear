@@ -1,0 +1,53 @@
+$kind: http-request
+name: http://localhost:3000/api/providers/register
+description: ""
+url: http://localhost:3000/api/providers/register
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"userId\": \"6af544bd1655955a9ecd1447\",\r
+
+    \    \"profession\": \"Electrician\",\r
+
+    \    \"services\": [\r
+
+    \        \"Wiring\",\r
+
+    \        \"Fan Installation\",\r
+
+    \        \"Switch Repair\",\r
+
+    \        \"Light Installation\",\r
+
+    \        \"Inverter Repair\"\r
+
+    \    ],\r
+
+    \    \"experience\": 5,\r
+
+    \    \"charges\": 300,\r
+
+    \    \"phone\": \"9876543210\",\r
+
+    \    \"serviceArea\": [\r
+
+    \        \"Gwalior\",\r
+
+    \        \"Bhind\",\r
+
+    \        \"Morar\",\r
+
+    \        \"Thatipur\",\r
+
+    \        \"Dabra\"\r
+
+    \    ],\r
+
+    \    \"isAvailable\": true\r
+
+    }"
+order: 1000
